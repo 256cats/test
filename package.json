@@ -1,0 +1,22 @@
+{
+  "name": "module test",
+  "version": "0.0.5",
+  "description": "My module test", 
+  "dependencies": {
+    "pmx"     : "*",
+    "mysql"   : "*"
+  },
+  "config": {           
+     "host" : "localhost",
+     "port" : 3306,
+     "user" : "root",
+     "password" : ""
+  },
+  "apps" : [{             
+    "merge_logs"         : true,
+    "max_memory_restart" : "200M",
+    "script"             : "index.js"
+  }],
+  "author": "256cats",
+  "license": ""        
+}
