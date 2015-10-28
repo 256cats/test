@@ -1,5 +1,5 @@
 {
-  "name": "module test",
+  "name": "module_test",
   "version": "0.0.5",
   "description": "My module test", 
   "dependencies": {
